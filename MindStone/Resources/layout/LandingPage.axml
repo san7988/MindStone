@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:background="#000000">
+    
+	<TextView
+		android:inputType="text"
+		android:text="Societe Generale GSC&#169;"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/OrganisationInfo"
+		android:minHeight="20dp"
+        android:minWidth="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:layout_below="@id/OrganisationInfo"
+        android:layout_gravity="center_horizontal"
+		android:text="Extract from ID"
+		android:id="@+id/StartButton"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+        android:textColor="#000000"/>
+</LinearLayout>

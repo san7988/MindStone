@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:background="#000000">
+	<FrameLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/country_prompt"
+			android:minHeight="20dp"
+			android:minWidth="100dp"
+			android:layout_gravity="left"
+			android:textStyle="bold"
+			android:id="@+id/CountryText"
+			android:layout_marginLeft="10dp"/>
+		<Spinner
+			android:id="@+id/CountrySpinner"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:layout_marginLeft="200dp"
+			android:prompt="@string/country_prompt"/>
+	</FrameLayout>
+	<FrameLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Id Type"
+			android:minHeight="20dp"
+			android:minWidth="100dp"
+			android:layout_gravity="left"
+			android:textStyle="bold"
+			android:id="@+id/IdText"
+			android:layout_marginLeft="10dp"/>
+		<Spinner
+			android:id="@+id/IdTypeSpinner"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="200dp"
+			android:prompt="@string/id_prompt_india"
+			android:layout_gravity="right"/>
+	</FrameLayout>
+	<Button
+		android:text="Next"
+        android:textColor="#000000"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/nextPage"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"/>
+
+</LinearLayout>

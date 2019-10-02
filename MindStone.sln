@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindStone", "MindStone\MindStone.csproj", "{891B6DF0-62BE-4E4E-86B8-F22E3C761871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindStone.UITests", "MindStone.UITests\MindStone.UITests.csproj", "{182A1BBD-40B6-461B-BDB4-053A3E932C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{891B6DF0-62BE-4E4E-86B8-F22E3C761871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891B6DF0-62BE-4E4E-86B8-F22E3C761871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891B6DF0-62BE-4E4E-86B8-F22E3C761871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891B6DF0-62BE-4E4E-86B8-F22E3C761871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182A1BBD-40B6-461B-BDB4-053A3E932C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182A1BBD-40B6-461B-BDB4-053A3E932C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182A1BBD-40B6-461B-BDB4-053A3E932C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182A1BBD-40B6-461B-BDB4-053A3E932C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

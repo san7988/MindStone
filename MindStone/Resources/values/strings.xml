@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">MindStone</string>
+    <string name="action_settings">Settings</string>
+<string name="country_prompt">Country</string>  
+   <string-array name="country_array">  
+<item>India</item>
+   <item>Cameroon</item>
+</string-array>
+<string name="id_prompt_india">Choose an ID Type</string>  
+   <string-array name="id_india">  
+   <item>PAN</item>  
+   <item>Passport</item>  
+   <item>Aadhaar</item>  
+</string-array>
+<string name="id_prompt_africa">Choose an ID Type</string>  
+   <string-array name="id_africa">    
+   <item>Passport</item>  
+</string-array>  
+</resources>
