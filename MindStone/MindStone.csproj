@@ -69,6 +69,11 @@
     <Compile Include="Models\ExtractedField.cs" />
     <Compile Include="Models\Coordinates.cs" />
     <Compile Include="Common\APICaller.cs" />
+    <Compile Include="Models\RestApiSettings.cs" />
+    <Compile Include="Models\RestApiInputParameter.cs" />
+    <Compile Include="Models\RestApiResponse.cs" />
+    <Compile Include="Domain\ImageExtractor.cs" />
+    <Compile Include="Models\HttpJsonParserSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -129,18 +134,29 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\TabNavigationTest.axml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="System.Net.Http">
+      <Version>4.3.4</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Adapters\" />
     <Folder Include="Models\" />
     <Folder Include="Common\" />
     <Folder Include="Resources\drawable\" />
+    <Folder Include="Domain\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

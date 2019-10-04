@@ -12,6 +12,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using MindStone.Common;
+using MindStone.Domain;
 
 namespace MindStone
 {
@@ -55,11 +56,7 @@ namespace MindStone
 
         private void UpdateViewFromDummyResultFromAPI()
         {
-            var apiCaller = new APICaller();
-            var extractedFieldList = apiCaller.CallApi()
-                                              .GetAwaiter()
-                                              .GetResult()
-                                              .Extraction;
+            var extractedFieldList = new ImageExtractor("base64String").GetImageExtract().Extraction;
             foreach(var e in extractedFieldList)
             {
                 LayoutInflater inflater = (LayoutInflater)GetSystemService(Context.LayoutInflaterService);
